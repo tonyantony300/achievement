@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home| C. R. I. FLUID SYSTEMS</title>
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+	    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+    </head>
+    <body class="container-fluid" style= "background-image: linear-gradient(rgb(250, 246, 246), #fff9b1)">
+        <div id="root"></div>
+        <script type="text/babel">
+        
+        class Hello extends React.Component {
+            render() {
+              return (
+                <div>
+                    <div className="d-flex justify-content-center"><img src="asserts/logo.png" class="img-fluid" width="33%" alt=""/></div>
+                    <div className="row">
+                        <div className="col-4">
+                            <img src="asserts/1.png" className="img-fluid" alt=""/>                         
+                        </div>
+                        <div className="col-8">                    
+                            <p><b>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</b>
+                            <ul><li>
+                            C.R.I.'s energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.</li>
+                            <li>C.R.I. is the highest contributor in the country for the projects of EESL (Energy Efficiency Services Limited) to replace the old inefficient pumps with 5 Star rated energy efficient smart pumps with IoT enabled control panel. </li>
+                            </ul>
+                            </p>
+                            <img src="asserts/2.png" alt="" className="img-fluid"/>
+                            <p>
+                            Government of India has awarded the <b>"National Energy Conservation Award 2018"</b>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha &amp; Shri. Raj Kumar Singh, Honorable Minister of State.
+                            </p>
+                        </div>
+                    </div>
+                    <p className="p-2">
+                        INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
+                    </p>
+                    <div className="text-center" >
+                        <img src="asserts/3.png"  className="img-fluid" width="80%"alt=""/>
+                        <label>Valves - Pumps - Pipes - IoT Drives &amp; Controllers - Wires &amp; Cables - Solar Systems - Motors</label>
+                        <hr className="bg-danger"/> 
+                    </div> 
+                    <div className="m-3 text-center">
+                        <p><b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</b> <br/>
+                                CHEMICALS &amp; PROCESS | POWER | WATER &amp; WASTE WATER | OILS &amp; GAS | PHARMA | SUGARS &amp; DISTILLERIES | PAPER &amp; PULP | MARINE &amp; DEFENCE | METAL &amp; MINING | FOOD &amp; BEVERAGE | PETROCHEMICAL &amp; REFINERIES | SOLAR | BUILDING | HVAC | FIRE FIGHTING | AGRICULTURE &amp; RESIDENTIAL
+                        </p>
+                    </div>
+
+                    <div className=" text-white">
+                        <div className="p-3 col-4 bg-danger float-left"><img src="https://img.icons8.com/ios/2x/phone-disconnected.png" alt="" width="36dp"/>&nbsp;&nbsp;Tool free 1800 200 1234</div>
+                        <div className="col-4 p-3 bg-danger text-decoration-none float-left"><a href="www.facebool.com/cripumps" className="text-decoration-none text-white"><img src="https://img.icons8.com/ios/2x/facebook-new.png" alt="" width="36dp"/>&nbsp;&nbsp;www.facebool.com/cripumps</a></div> 
+                        <div className="col-4 p-3 bg-danger float-left"><a href="www.crigroups.com" className="text-decoration-none text-white"><img src="https://img.icons8.com/ios/2x/domain.png" alt="" width="36dp"/>&nbsp;&nbsp;www.crigroups.com</a></div>  
+                    </div>  
+                </div>
+                );
+            }
+          }
+        
+          ReactDOM.render(<Hello />, document.getElementById('root'));
+        </script>   
+    </body>
+</html>
